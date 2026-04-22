@@ -11,30 +11,46 @@ import java.util.Arrays;
  */
 public class QuickSort {
     public static void main(String[] args) {
-        int[] arry = {2,10,8,22,34,5,12,28};
-        sort(arry,0,arry.length-1);
+        int[] arry = {2, 10, 8, 22, 34, 5, 12, 28};
+        sort(arry, 0, arry.length - 1);
         System.out.println(Arrays.toString(arry));
     }
-    public static  void sort(int[] arry,int left,int right){
-        int middle = (left+right)/2;
+
+    public static void sort(int[] arry, int left, int right) {
+        int middle = (left + right) / 2;
         int mark = arry[middle];
         int tmpLeft = left;
         int tmpRight = right;
-        while (tmpLeft<tmpRight){
-            while (tmpLeft<middle&&arry[tmpLeft]<mark){
+        while (tmpLeft < tmpRight) {
+            while (arry[tmpLeft] < mark) {
                 tmpLeft++;
             }
-            if (tmpRight>middle&&arry[tmpRight]>mark){
+            while (arry[tmpRight] > mark) {
                 tmpRight--;
             }
-            if (tmpLeft<tmpRight){
-                arry[tmpLeft]= arry[tmpLeft]^arry[tmpRight];
-                arry[tmpRight] = arry[tmpLeft]^arry[tmpRight];
-                arry[tmpLeft]= arry[tmpLeft]^arry[tmpRight];
+            if (tmpLeft >= tmpRight) {
+                break;
+
+            }
+            arry[tmpLeft] = arry[tmpLeft] ^ arry[tmpRight];
+            arry[tmpRight] = arry[tmpLeft] ^ arry[tmpRight];
+            arry[tmpLeft] = arry[tmpLeft] ^ arry[tmpRight];
+
+            if (arry[tmpLeft]==mark){
+                tmpRight--;
+            }
+            if (arry[tmpRight]==mark){
                 tmpLeft++;
             }
+
         }
-        if(middle>left) sort(arry,left,middle-1);
-        if (middle<right) sort(arry,middle+1,right);
+        if (tmpLeft==tmpRight){
+            tmpLeft++;
+            tmpRight--;
+        }
+        if (tmpRight > left) sort(arry, left, tmpRight);
+        if (tmpLeft < right) sort(arry, tmpLeft, right);
     }
+
+
 }
