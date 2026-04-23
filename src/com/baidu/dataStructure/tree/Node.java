@@ -1,5 +1,7 @@
 package com.baidu.dataStructure.tree;
 
+import java.io.Serializable;
+
 /**
  * @author 冯纪元
  * @ClassName Node
@@ -7,10 +9,10 @@ package com.baidu.dataStructure.tree;
  * @datetime 2026年 04月 22日 16:17
  * @version: 1.0
  */
-public class Node {
-    int number;
-    Node left;
-    Node right;
+public class Node implements Serializable {
+   public int number;
+  public   Node left;
+   public Node right;
 
     public Node() {
     }
