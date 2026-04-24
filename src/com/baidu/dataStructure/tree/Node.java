@@ -66,4 +66,22 @@ public class Node implements Serializable {
             return null;
         }
     }
+
+    public int leftHeight(){
+        if (this.left==null){
+            return 0;
+        }else {
+            return left.getHeight();
+        }
+    }
+    public int rightHeight(){
+        if (this.right==null){
+            return 0;
+        }else {
+            return right.getHeight();
+        }
+    }
+    public int getHeight(){
+        return Math.max(left==null?0:left.getHeight(),right==null?0:right.getHeight())+1;
+    }
 }
