@@ -27,4 +27,43 @@ public class Node implements Serializable {
                 "number=" + number +
                 '}';
     }
+
+    public void add(Node node){
+        if (node.number<this.number){
+            if (this.left==null){
+                this.left = node;
+            }else {
+                this.left.add(node);
+            }
+        }else {
+            if (this.right==null){
+                this.right=node;
+            }else {
+                this.right.add(node);
+            }
+        }
+    }
+
+    public Node getNode(Node node){
+        if (this.number==node.number){
+            return this;
+        }else if (node.number<this.number&&this.left!=null){
+            return this.left.getNode(node);
+        }else if (node.number>this.number&&this.right!=null){
+            return this.right.getNode(node);
+        }else {
+            return null;
+        }
+    }
+    public Node getParent(Node node){
+        if ((this.left!=null&&this.left.number==node.number)||(this.right!=null&&this.right.number==node.number)){
+            return this;
+        }else if (node.number<this.number&&this.left!=null){
+            return this.left.getParent(node);
+        }else if (node.number>this.number&&this.right!=null){
+            return this.right.getParent(node);
+        }else {
+            return null;
+        }
+    }
 }
