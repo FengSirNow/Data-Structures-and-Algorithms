@@ -3,7 +3,7 @@ package com.baidu.algorithm.find;
 /**
  * @author 冯纪元
  * @ClassName BinarySearch
- * @description: TODO
+ * @description: 二分查找
  * @datetime 2026年 05月 06日 14:37
  * @version: 1.0
  */

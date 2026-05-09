@@ -3,7 +3,7 @@ package com.baidu.dataStructure.linkList;
 /**
  * @author 冯纪元
  * @ClassName SingleLinkList
- * @description: TODO
+ * @description: 单链表
  * @datetime 2026年 04月 18日 16:41
  * @version: 1.0
  */

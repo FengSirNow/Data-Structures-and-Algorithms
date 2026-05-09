@@ -3,7 +3,7 @@ package com.baidu.algorithm.ksm;
 /**
  * @author 冯纪元
  * @ClassName KSM
- * @description: TODO
+ * @description: ksm算法匹配
  * @datetime 2026年 05月 07日 17:38
  * @version: 1.0
  */

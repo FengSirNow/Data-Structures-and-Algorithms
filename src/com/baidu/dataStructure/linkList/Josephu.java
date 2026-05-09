@@ -3,7 +3,7 @@ package com.baidu.dataStructure.linkList;
 /**
  * @author 冯纪元
  * @ClassName Josephu
- * @description: TODO
+ * @description: 约瑟夫环问题
  * @datetime 2026年 04月 18日 18:40
  * @version: 1.0
  */

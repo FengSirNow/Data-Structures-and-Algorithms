@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author 冯纪元
  * @ClassName Two_Dimensional_Array
- * @description: 循环队列
+ * @description: 稀疏数组
  * @datetime 2026年 04月 15日 9:59
  * @version: 1.0
  */

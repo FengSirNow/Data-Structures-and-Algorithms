@@ -3,7 +3,7 @@ package com.baidu.algorithm.divide_and_conquer;
 /**
  * @author 冯纪元
  * @ClassName Hanoitower
- * @description: TODO
+ * @description: 汉诺塔问题
  * @datetime 2026年 05月 06日 15:24
  * @version: 1.0
  */

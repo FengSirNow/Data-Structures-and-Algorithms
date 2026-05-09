@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 /**
  * @author 冯纪元
  * @ClassName HeffumanTree
- * @description: TODO
+ * @description: 哈夫曼编码
  * @datetime 2026年 04月 23日 9:08
  * @version: 1.0
  */

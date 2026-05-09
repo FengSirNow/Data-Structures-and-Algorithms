@@ -3,7 +3,7 @@ package com.baidu.dataStructure.tree.heffuman;
 /**
  * @author 冯纪元
  * @ClassName HeffumanTreeTest
- * @description: TODO
+ * @description: 哈夫曼测试
  * @datetime 2026年 04月 23日 9:29
  * @version: 1.0
  */

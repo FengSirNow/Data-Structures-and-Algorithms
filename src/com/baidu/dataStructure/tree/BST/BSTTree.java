@@ -5,7 +5,7 @@ import com.baidu.dataStructure.tree.Node;
 /**
  * @author 冯纪元
  * @ClassName BSTTree
- * @description: TODO
+ * @description: 二叉顺序树
  * @datetime 2026年 04月 23日 16:03
  * @version: 1.0
  */

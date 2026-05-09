@@ -3,7 +3,7 @@ package com.baidu.algorithm.dynamic_programming;
 /**
  * @author 冯纪元
  * @ClassName HouseRobber
- * @description: TODO
+ * @description: 偷房子问题
  * @datetime 2026年 05月 07日 10:38
  * @version: 1.0
  */

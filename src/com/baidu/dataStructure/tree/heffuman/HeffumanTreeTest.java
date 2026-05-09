@@ -5,7 +5,7 @@ import com.baidu.dataStructure.tree.Node;
 /**
  * @author 冯纪元
  * @ClassName HeffumanTreeTest
- * @description: TODO
+ * @description: 哈夫曼树测试类
  * @datetime 2026年 04月 23日 9:29
  * @version: 1.0
  */

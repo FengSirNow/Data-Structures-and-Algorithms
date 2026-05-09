@@ -3,7 +3,7 @@ package com.baidu.algorithm.ksm;
 /**
  * @author 冯纪元
  * @ClassName bruteForceMatch
- * @description: TODO
+ * @description: 暴力匹配
  * @datetime 2026年 05月 07日 15:26
  * @version: 1.0
  */

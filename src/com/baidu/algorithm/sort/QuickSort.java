@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author 冯纪元
  * @ClassName QuickSort
- * @description: TODO
+ * @description: 快速排序
  * @datetime 2026年 04月 21日 16:53
  * @version: 1.0
  */

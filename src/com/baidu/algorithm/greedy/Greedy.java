@@ -5,7 +5,7 @@ import java.util.*;
 /**
  * @author 冯纪元
  * @ClassName Greedy
- * @description: TODO
+ * @description: 电台问题（贪心算法）
  * @datetime 2026年 05月 08日 10:54
  * @version: 1.0
  */

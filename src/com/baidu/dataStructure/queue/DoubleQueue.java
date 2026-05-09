@@ -3,7 +3,7 @@ package com.baidu.dataStructure.queue;
 /**
  * @author 冯纪元
  * @ClassName DoubleQueue
- * @description: 稀疏数组
+ * @description: 循环队列
  * @datetime 2026年 04月 15日 15:16
  * @version: 1.0
  */

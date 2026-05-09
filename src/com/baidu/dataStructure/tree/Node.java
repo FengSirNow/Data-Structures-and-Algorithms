@@ -5,7 +5,7 @@ import java.io.Serializable;
 /**
  * @author 冯纪元
  * @ClassName Node
- * @description: TODO
+ * @description: 树节点
  * @datetime 2026年 04月 22日 16:17
  * @version: 1.0
  */

@@ -5,7 +5,7 @@ import java.util.Arrays;
 /**
  * @author 冯纪元
  * @ClassName Backpack
- * @description: TODO
+ * @description: 背包问题
  * @datetime 2026年 05月 07日 11:09
  * @version: 1.0
  */

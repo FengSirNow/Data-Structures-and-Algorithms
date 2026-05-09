@@ -7,7 +7,7 @@ import java.util.Queue;
 /**
  * @author 冯纪元
  * @ClassName Graph
- * @description: TODO
+ * @description: 图（bfs和dfs）
  * @datetime 2026年 05月 06日 10:12
  * @version: 1.0
  */
